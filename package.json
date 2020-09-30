@@ -1,0 +1,20 @@
+{
+  "name": "tx-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -x npm run server",
+    "server": "node index"
+  },
+  "author": "sjh",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "cheerio": "^1.0.0-rc.3",
+    "md5": "^2.3.0",
+    "mysql2": "^2.2.1",
+    "sequelize": "^6.3.5",
+    "validate": "^5.1.0"
+  }
+}
